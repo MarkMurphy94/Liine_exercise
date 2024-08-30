@@ -1,6 +1,6 @@
 - This project is an API with a single endpoint which takes a datetime string, and returns a list of restaurant names which are open on that date and time. 
 - The dataset is a CSV file of restaurant names and a human-readable, string-formatted list of open hours.
-- Includes a test suite with a unit test, asserting that a given date falls in a range of days given as a string followng the format "Mon-Fri"
+- Includes a test suite with a unit test, asserting that a given date falls in a range of days, given as a string followng the format "Mon-Fri"
 - A dockerfile and compose file are included to deploy this API in a container.
 - Run `docker compose -t open_restaurants .` to build the image, then `docker run open_restaurants` to run the API in the container
 - The API is exposed on `localhost:8000`. The endpoint is `/restaurants`
