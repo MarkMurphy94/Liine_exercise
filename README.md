@@ -3,5 +3,5 @@
 - Includes a test suite with a unit test, asserting that a given date falls in a range of days, given as a string followng the format "Mon-Fri"
 - A dockerfile and compose file are included to deploy this API in a container.
 - Run `docker compose up --build` to build and run the image in the container
-- The API is exposed on `localhost:8000`. The endpoint is `/restaurants`
+- The API is exposed on `localhost:8000`. The endpoint is `/restaurants` and the query name is `date_and_time`
 - Follow this format when querying a date: `DD-MM-YYYY:HH:MM`
